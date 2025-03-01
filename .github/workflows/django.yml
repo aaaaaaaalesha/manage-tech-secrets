@@ -26,7 +26,7 @@ jobs:
       uses: knowsuchagency/poetry-install@v2
       with:
         # Have poetry create a virtualenv for the project on installation.
-        create-virtualenv: true # optional, default is false
+        create-virtualenv: false # optional, default is false
         
     - name: Install Dependencies
       run: |
